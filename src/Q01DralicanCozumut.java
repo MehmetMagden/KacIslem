@@ -53,7 +53,7 @@ public class Q01DralicanCozumut {
         if (result >= 10) {
             int gec = result;       //burada resultı sıfırlamamız ve resultın değeriyle tekrar methodu çağırmamız gerekiyor
             result =0;              //bu yüzden gec(ici) variable oluşturdum resultı da 0 a eşitledim.
-            result = additivePersistence(gec);
+            result = additivePersistence(gec);   //tekrardan method içinden değeri çağırdım
         } else {
             return counterAdd;
         }
